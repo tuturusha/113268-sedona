@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -76,7 +79,7 @@
 
       <section class="features">
         <h2 class="visualy-hidden">Преимущества</h2>
-        <ul>
+        <ul class="feature">
           <li class="feature-square">
             <h3>Небольшая площадь</h3>
             <span class="number">№3</span>
@@ -97,31 +100,31 @@
 
       <div class="offer">
         <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки,<br>
+        <p class="offer-text">Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <form class="offer-form" action="https://echo.htmlacademy.ru" method="post">
-          <button type="button">Поиск гостиницы в Седоне</button>
+          <button class="button button-search" type="button">Поиск гостиницы в Седоне</button>
           <p class="offer-item">
             <label for="offer-arrival">Дата заезда</label>
             <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
-            <button type="button" class="visually-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item" type="button" class="visually-hidden">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-departure">Дата выезда</label>
             <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
-            <button type="button" class="visually-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item" type="button" class="visually-hidden">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-adults">Взрослые</label>
-            <button type="button">Уменьшить количество взрослых</button>
+            <button class="button button-item" type="button">Уменьшить количество взрослых</button>
             <input type="text" name="adults" value="" placeholder="2" id="offer-adults">
-            <button type="button">Увеличить количество взрослых</button>
+            <button class="button button-item" type="button">Увеличить количество взрослых</button>
             <label for="offer-children">Дети</label>
-            <button type="button">Уменьшить количество детей</button>
+            <button class="button button-item" type="button">Уменьшить количество детей</button>
             <input type="text" name="children" value="" placeholder="0" id="offer-children">
-            <button type="button">Увеличить количество детей</button>
+            <button class="button button-item" type="button">Увеличить количество детей</button>
           </p>
-          <button class="button" type="submit">Найти</button>
+          <button class="button button-find" class="button" type="submit">Найти</button>
         </form>
       </div>
       <p class="map">
@@ -134,19 +137,19 @@
        <h2 class="visually-hidden">Социальные сети</h2>
        <ul>
         <li>
-          <a class="social-button" href="#">Твиттер</a>
+          <a  class="button social-button" href="#">Твиттер</a>
         </li>
         <li>
-          <a class="social-button" href="#">Фейсбук</a>
+          <a class="button social-button" href="#">Фейсбук</a>
         </li>
         <li>
-          <a class="social-button" href="#">Ютуб</a>
+          <a class="button social-button" href="#">Ютуб</a>
         </li>
        </ul>
     </section>
     <p class="footer-copyright">
       <b>Website by</b>
-      <a class="button" href="http://htmlacademy.ru/intensive/htmlcss">Html academy</a>
+      <a class="button button-copyright" href="http://htmlacademy.ru/intensive/htmlcss">Html academy</a>
     </p>
   </footer>
 </body>
