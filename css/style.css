@@ -173,10 +173,12 @@ a {
     width: 568px;
     height: 86px;
 }
-.button-search:hover {
+.button-search:hover,
+.button-book:hover {
     background-color: #604e43;
 }
-.button-search:active {
+.button-search:active,
+.button-book:active {
     background-color: #503e33;
     opacity: 30%;
 }
@@ -187,11 +189,13 @@ a {
     background-color: #81b3d2;
 }
 .button-find:hover,
-.social-button:hover {
+.social-button:hover,
+.button-details:hover {
     background-color: #669ec0;
 }
 .button-find:active,
-.social-button:active {
+.social-button:active,
+.button-details: active {
     background-color: #5496bd;
     opacity: 30%;
 }
@@ -296,9 +300,34 @@ font-weight: normal;
 .result-card h3 {
     color: #000000;
 }
-.result-name a:hover {
+
+
+.result-card-type,
+.result-card-price,
+.result-card-rating {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #333333;
+}
+.result-card-rating {
+    background-color: #f2f2f2;
+}
+
+.button-book {
+    width: 142px;
+    height: 27px;
+    color: #ffffff;
+    background-color: #766357;
+    
+}
+.button-details {
+    width: 110px;
+    height: 27px;
+    background-color: #81b3d2;
     color: #ffffff;
 }
+
 
 
 
