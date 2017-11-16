@@ -36,8 +36,7 @@ a {
 }
 
 .site-navigation a:active {
-    opacity: 0.3;
-    color: #dedede;
+    color: #cacaca;
 }
 
 .site-navigation-current a {
@@ -192,7 +191,8 @@ a {
 .button-search:active,
 .button-book:active {
     background-color: #503e33;
-    opacity: 0.3;
+    color: #928a85;
+
 }
 
 .button-find {
@@ -211,12 +211,12 @@ a {
 .social-button:active,
 .button-details:active {
     background-color: #5496bd;
-    opacity: 0.3;
+    color: #94b9d2;
 }
 
 .hashtag {
     font-size: 21px;
-    font-weight: 26px;
+    line-height: 26px;
 }
 
 .social ul {
@@ -296,9 +296,9 @@ a {
 }
 
 .sort-title {
-font-size: 12px;
-line-height: 18px;
-font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
 }
 
 .sort-block a{
