@@ -15,10 +15,6 @@ a {
     text-decoration: none;
 }
 
-.site-navigation-current a {
-    color: #766357;
-}
-
 .main-navigation {
     font-size: 14px;
     line-height: 26px;
@@ -35,14 +31,17 @@ a {
     font-weight: bold;
 }
 
-.site-navigation a:hover
-{
+.site-navigation a:hover {
     color: #81b3d2;
 }
 
 .site-navigation a:active {
     opacity: 0.3;
     color: #dedede;
+}
+
+.site-navigation-current a {
+    color: #766357;
 }
 
 .tagline {
@@ -361,6 +360,8 @@ font-weight: normal;
     height: 27px;
     color: #ffffff;
     background-color: #766357;
+    font-size: 14px;
+    line-height: 21px;
     
 }
 
@@ -369,6 +370,24 @@ font-weight: normal;
     height: 27px;
     background-color: #81b3d2;
     color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.result-card {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.result-card:hover {
+    color: #81b3d2;
+}
+
+.result-card:active {
+    color: #000000;
+    opacity: 0.3;
 }
 
 
