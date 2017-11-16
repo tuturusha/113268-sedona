@@ -7,7 +7,6 @@ body {
     line-height: 26px;
     font-weight: bold;
     color: #000000;
-    
     text-transform: uppercase;   
 }
 
@@ -36,7 +35,7 @@ a {
 }
 
 .site-navigation a:active {
-    color: #cacaca;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .site-navigation-current a {
@@ -50,8 +49,7 @@ a {
 
     background-color: #31647f;
     background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
-    background-position: bottom 0px right 0px,
-    center;
+    background-position: bottom 0px right 0px, center;
     background-repeat: no-repeat;
     background-size:  1200px 57px, 1200px 800px;
     text-align: center;
@@ -124,7 +122,8 @@ a {
 .offer-text {
     font-weight: normal;
 }
-.offer-form  input[type="text"]{
+
+.offer-form  input[type="text"] {
     font: inherit;
     background-color: #f2f2f2;
 }
@@ -191,8 +190,7 @@ a {
 .button-search:active,
 .button-book:active {
     background-color: #503e33;
-    color: #928a85;
-
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .button-find {
@@ -211,7 +209,7 @@ a {
 .social-button:active,
 .button-details:active {
     background-color: #5496bd;
-    color: #94b9d2;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .hashtag {
@@ -301,14 +299,14 @@ a {
     font-weight: normal;
 }
 
-.sort-block a{
+.sort-block a {
     color: #cacaca;
     font-size: 12px;
     line-height: 18px;
     font-weight: normal;
 }
 
-.sort-price a:active, {
+.sort-price a:active {
     color: #81b3d2;
 }
 
@@ -333,14 +331,13 @@ a {
     border: none;  
 }
 
-.results li{
+.results li {
     list-style: none;
 }
 
 .result-card h3 {
     color: #000000;
 }
-
 
 .result-card-type,
 .result-card-price,
@@ -361,8 +358,7 @@ a {
     color: #ffffff;
     background-color: #766357;
     font-size: 14px;
-    line-height: 21px;
-    
+    line-height: 21px; 
 }
 
 .button-details {
@@ -386,8 +382,8 @@ a {
 }
 
 .result-card:active {
-    color: #000000;
-    opacity: 0.3;
+    color: rgba(0, 0, 0, 0.3);
+    
 }
 
 
