@@ -46,12 +46,15 @@ a {
 }
 
 .tagline {
+    width: 1200px;
+    height: 505px;
+    position: center;
+
     background-color: #31647f;
-    background-image: url("../img/background-photo.jpg");
-    background-position: 0 0;
+    background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
+    background-position: 0 1200px ,auto;
     background-repeat: no-repeat;
-    width: 1197px;
-    height: 501px;
+    background-size:  1200px 57px, 1200px 800px,;
     text-align: center;
 }
 
