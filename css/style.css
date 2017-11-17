@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px; 
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+}
+
+.site-navigation {
+    list-style:   none;
+}
+
+.site-navigation a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.site-navigation a:hover {
+    color: #81b3d2;
+}
+
+.site-navigation a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation-current a {
+    color: #766357;
+}
+
+.tagline {
+    width: 1200px;
+    height: 505px;
+    position: center;
+
+    background-color: #31647f;
+    background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
+    background-position: bottom 0px right 0px, center;
+    background-repeat: no-repeat;
+    background-size:  1200px 57px, 1200px 800px;
+    text-align: center;
+}
+
+.description {
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.causes {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.place-description {
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.place-description h3 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.services,
+.feature {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.services h3,
+.features h3 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.features {
+    background-color: #eeeeee;
+    text-align: center;
+    font-weight: normal;
+}
+
+.offer {
+   text-align: center; 
+}
+
+.offer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #000000;  
+}
+
+.offer-text {
+    font-weight: normal;
+}
+
+.offer-form  input[type="text"] {
+    font: inherit;
+    background-color: #f2f2f2;
+}
+
+.offer-form  input[type="text"]:hover {
+    background-color: #f2f2f2;
+}
+
+.offer-form  input[type="text"]:focus {
+    background-color: transparent;
+    border: 2px solid #f2f2f2;
+}
+ 
+.button-item,
+.sort-arrows-up,
+.sort-arrows-down {
+    color: #a9a9a9;
+    border: none;
+    background: none;
+}
+
+.button-item:hover,
+.button-copyright:hover,
+.sort-arrows-up:hover,
+.sort-arrows-down:hover {
+    color: #000000;
+}
+
+.button-item:active,
+.button-copyright:active,
+.sort-arrows-up:active,
+.sort-arrows-down:active {
+    color: #81b3d2;
+}
+
+.button {
+    font: inherit;
+
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+.button-search,
+.button-find {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.button-search {
+    background-color: #766357;
+    width: 568px;
+    height: 86px;
+}
+
+.button-search:hover,
+.button-book:hover {
+    background-color: #604e43;
+}
+
+.button-search:active,
+.button-book:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.button-find {
+    width: 458px;
+    height: 58px;
+    background-color: #81b3d2;
+}
+
+.button-find:hover,
+.social-button:hover,
+.button-details:hover {
+    background-color: #669ec0;
+}
+
+.button-find:active,
+.social-button:active,
+.button-details:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.hashtag {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social-button {
+    background-color: #81b3d2;
+    color: #ffffff;
+    width: 46px;
+    height: 48px;
+}
+
+.footer-copyright {
+    font-weight: normal;
+}
+
+.button-copyright {
+    width: 115px;
+    height: 41px;
+    color: #231f20;
+}
+
+.filter {
+    background-color:#677e90;
+    background-image: url("../img/background-card.jpg");
+    background-position: 0 0;
+    background-size: 1200px 215px;
+    background-repeat: no-repeat;
+   width: 1201px;
+   height: 350px;
+    text-align: center;
+    
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px; 
+     
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filters legend {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.filter-option {
+   list-style: none; 
+}
+
+.filter-option input[type="checkbox"]:hover {
+    color: #ffffff;
+}
+
+.filter-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.filter-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.sort-find {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.sort-block {
+    list-style: none;
+}
+
+.sort-title {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.sort-block a {
+    color: #cacaca;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.sort-price a:active {
+    color: #81b3d2;
+}
+
+.sort-price a {
+    color: #81b3d2;
+}
+
+.sort-type a,
+.sort-rating a {
+    border-bottom: 1px dotted #81b3d2;
+}
+
+.sort-type a:hover,
+.sort-rating a:hover {
+    color: #81b3d2; 
+    border-bottom: 1px dotted #81b3d2;
+}
+
+.sort-type a:active,
+.sort-rating a:active {
+    color: #000000;
+    border: none;  
+}
+
+.results li {
+    list-style: none;
+}
+
+.result-card h3 {
+    color: #000000;
+}
+
+.result-card-type,
+.result-card-price,
+.result-card-rating {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #333333;
+}
+
+.result-card-rating {
+    background-color: #f2f2f2;
+}
+
+.button-book {
+    width: 142px;
+    height: 27px;
+    color: #ffffff;
+    background-color: #766357;
+    font-size: 14px;
+    line-height: 21px; 
+}
+
+.button-details {
+    width: 110px;
+    height: 27px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.result-card {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.result-card:hover {
+    color: #81b3d2;
+}
+
+.result-card:active {
+    color: rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+
+
+
+
+
