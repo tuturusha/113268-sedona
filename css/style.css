@@ -42,20 +42,19 @@ a {
     color: #766357;
 }
 
-.tagline {
-    width: 1200px;
-    height: 518px;
-    position: center;
 
+.tagline-container {
+    height: 518px;
     background-color: #31647f;
-    background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
-    background-position: bottom 0px right 0px, center;
+     background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
+    background-position: bottom 0px center, center;
     background-repeat: no-repeat;
-    background-size:  100% 57px, 100% 520px;
+    background-size:  1200px 57px, 1200px 520px;
     text-align: center;
 }
 
 .description {
+    
     color: #000000;
     font-weight: bold;
     font-size: 21px;
@@ -388,31 +387,27 @@ a {
 
 .visualy-hidden {
     font-size: 0px;
+    line-height: 0px;
 }
 
 body,
 html {
     min-width: 1200px;
-    margin: 0 40px;
-}
-
-.inner-page body {
-    min-width: 1200px;
-    margin: 0 40px;
+    
 }
 
 .container {
-    width: 900px;
-    margin: 0 auto;
-    padding: 0 60px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 
 .main-navigation {
     position: relative;
-   
-    width: 100%;
+    
+    min-width: 1200px;
     padding: 0;
-    margin: 0;
+    margin: 0 40px;
 }
 
 .site-navigation {
@@ -420,7 +415,9 @@ html {
     flex-direction: row;
     
     justify-content: space-around;
+    align-items: center;
     margin: 0;
+    margin-bottom: 22px;
     padding: 0;
     padding-top: 14px;
     
@@ -448,7 +445,7 @@ html {
 }
 
 .tagline {
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -458,20 +455,28 @@ html {
     margin-bottom: 68px;
 }
 
-.tagline .welcome {
+.tagline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+}
+
+.tagline-container .welcome {
     width: 188px;
     height: 45px;
     padding-top: 45px;
     padding-bottom: 13px;
     
 }
-.tagline .gorgeous {
+
+.tagline-container .gorgeous {
     width: 176px;
     height: 30px;
     padding-bottom: 58px;
 }
 
-.tagline .sedona {
+.tagline-container .sedona {
     width: 459px;
     height: 78px;
     padding-bottom: 60px;
@@ -492,29 +497,41 @@ html {
 }
 
 .places {
-    min-height: 257px;
-    
-    display: flex;
+   display: flex;
     flex-direction: row;
-}
-
-.place-wrap {
-    min-width: 300px;
-    margin: 0 auto;
-    padding: 30px 30px;
+    justify-content: center;
 }
 
 .place-description {
-    
-    text-align: center;
-    
-    min-width: 402px;
+    height: 257px;
+    width: 400px; 
+   
+}
+
+.place-image {
+   width: 800px; 
+   height: 257px; 
+  
+}
+
+.place-wrap {
+    padding-top: 47px;
+    padding-bottom: 60px;
+    min-width: 280px;
+    padding-left: 60px;
+    padding-right: 40px;
+} 
+
+.resources {
+    width: 1200px;
 }
 
 .services {
-  min-height: 330px;
+  
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
   align-items: center;
   margin: 0px;
   padding: 0px;
@@ -524,7 +541,8 @@ html {
 
 .service {
     min-height: 330px;
-    min-height: 200px;
+    width: 300px;
+   
     
 }
 
