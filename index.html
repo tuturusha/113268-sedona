@@ -47,7 +47,9 @@
         <div class="place-description">
           <h2 class="visualy-hidden">О городе</h2>
           <div class="place-wrap">
-            <h3 class="place-name">Настоящий городок</h3>
+            <h3 class="place-name">
+              Настоящий городок
+            </h3>
             <span class="number">№1</span>
             <p class="place-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
           </div>
@@ -56,11 +58,10 @@
           <img src="img/town.jpg" width="800" height="257" alt="Настоящий городок">
         </div>
       </article>
-      <div class="container">
-        <section class="resources">
+      
+        <section class="resources container">
           <h2 class="visualy-hidden">Ресурсы</h2>
           <ul class="services">
-            
             <li class="service appartment">
               <h3>Жилье</h3>
               <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -76,7 +77,6 @@
         
           </ul>
         </section>
-    </div>
 
       <article class="places">
          <img src="img/bridge.jpg" width="800" height="257" alt="Мост дьявола">
@@ -95,21 +95,29 @@
         
       </article>
 
-      <section class="features">
+      <section class="features container">
         <h2 class="visualy-hidden">Преимущества</h2>
-        <ul class="feature">
-          <li class="feature-square">
-            <h3>Небольшая площадь</h3>
+        <ul class="feature-wrap">
+          <li class="feature square">
+            <h3 class="place-name">
+              
+              Небольшая площадь
+
+            </h3>
             <span class="number">№3</span>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="feature-road">
-            <h3>Красивая дорога</h3>
+          <li class="feature road">
+            <h3 class="place-name">
+              Красивая дорога
+            </h3>
             <span class="number">№4</span>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="feature-tourists">
-            <h3>Мало туристов</h3>
+          <li class="feature tourists">
+            <h3 class="place-name">
+              Мало туристов
+            </h3>
             <span class="number">№5</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
@@ -128,12 +136,12 @@
           <p class="offer-item">
             <label for="offer-arrival">Дата заезда</label>
             <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
-            <button class="button button-item" type="button" class="visualy-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item visualy-hidden" type="button">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-departure">Дата выезда</label>
             <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
-            <button class="button button-item" type="button" class="visualy-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item visualy-hidden" type="button">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-adults">Взрослые</label>
@@ -145,7 +153,7 @@
             <input type="text" name="children" value="" placeholder="0" id="offer-children">
             <button class="button button-item" type="button">Увеличить количество детей</button>
           </p>
-          <button class="button button-find" class="button" type="submit">Найти</button>
+          <button class="button button-find" type="submit">Найти</button>
         </form>
         </div>
       </div>
