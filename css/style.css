@@ -240,10 +240,7 @@ a {
     background-image: url("../img/background-card.jpg");
     background-position: 0 -150px;
     background-size: 1200px 400px;
-    background-repeat: no-repeat;
-   width: 1200px;
-    text-align: center;
-    
+    background-repeat: no-repeat; 
     color: #ffffff;
     font-weight: normal;
     line-height: 21px;
