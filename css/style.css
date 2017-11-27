@@ -412,17 +412,18 @@ html {
     margin: 0;
     margin-bottom: 22px;
     padding: 0;
-    padding-top: 14px;
+    
     
     list-style: none;
 }
 
 .site-navigation li {
-    width: 20%;   
+    width: 20%;  
+     margin-top: 14px;
 }
 
 .site-navigation li:nth-child(2) {
-    margin-right: 20%;
+    margin-right: auto;
 }
 
 .main-header-logo {
@@ -473,7 +474,7 @@ html {
 }
 
 .wrapper .causes {
-    padding-top: 18px;
+    margin-top: 30px;
 }
 
 .description {
@@ -526,8 +527,8 @@ html {
 .service {
     text-align: center;
     width: 400px;
-    padding-top: 160px;
-    padding-bottom: 85px;
+    margin-top: 160px;
+    margin-bottom: 85px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -548,10 +549,17 @@ html {
 
 .feature {
     text-align: center;
-    padding-top: 49px;
-    padding-bottom: 63px;
-     width: 240px;
+    width: 400px;
+    margin-top: 45px;
+    margin-bottom: 57px;
+    padding-left: 50px;
+    padding-right: 50px;
      
+}
+
+.place-name {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .offer-wrap {
@@ -689,8 +697,22 @@ html {
     justify-content: space-around;
     margin: 0;
     margin-top: 36px;
+    
     padding: 0;
 
+}
+
+.hashtag {
+    width: 400px;
+    margin-left: 130px;
+}
+
+.social {
+    width: 400px;
+}
+
+.footer-copyright {
+    width: 400px;
 }
 
 
