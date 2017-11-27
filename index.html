@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+  <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
         <ul class="site-navigation">
@@ -21,98 +22,122 @@
         </a>
       </nav>
     </header>
-    <main class="container">
+    <main>
       <h1 class="visualy-hidden">Седона</h1>
       <section class="tagline">
-        <h2 class="visually-hidden">Слоган</h2>
-        <img src="img/welcome.png" width="269" height="94" alt="Welcome to the gorgeous">
-        <img src="img/gorgeous.png" width="176" height="30" alt="to the gorgeous">
-        <img src="img/sedona.png" width="461" height="88" alt="Sedona">
-        <img src="img/because.png" width="310" height="86" alt="Because the Grand Canyon sucks!">
+        <div class="tagline-container">
+        <h2 class="visualy-hidden">Слоган</h2>
+        <img class="welcome" src="img/welcome.png" width="269" height="94" alt="Welcome to the gorgeous">
+        <img class="gorgeous" src="img/gorgeous.png" width="176" height="30" alt="to the gorgeous">
+        <img class="sedona" src="img/sedona.png" width="461" height="88" alt="Sedona">
+        <img class="because" src="img/because.png" width="310" height="86" alt="Because the Grand Canyon sucks!">
+        </div>
       </section>
-      <b class="description">
-        Седона - небольшой городок в Аризоне, заслуживающий большего!
-      </b>
-      <p class="causes">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-
+      <div class="wrapper">
+        <b class="description">
+          Седона - небольшой городок в Аризоне, 
+          заслуживающий большего!
+        </b>
+        <p class="causes">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </div>
+     
       <article class="places">
         <div class="place-description">
           <h2 class="visualy-hidden">О городе</h2>
-          <h3 class="place-name">Настоящий городок</h3>
-          <span class="number">№1</span>
-          <p class="place-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+          <div class="place-wrap">
+            <h3 class="place-name">
+              Настоящий городок
+            </h3>
+            <span class="number">№1</span>
+            <p class="place-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+          </div>
         </div>
-        <img src="img/town.jpg" width="800" height="257" alt="Настоящий городок">
+        <div class="place-image">
+          <img src="img/town.jpg" width="800" height="257" alt="Настоящий городок">
+        </div>
       </article>
-
-      <section class="resources">
-        <h2 class="visualy-hidden">Ресурсы</h2>
-        <ul class="services">
-          <li class="service-appartment">
-            <h3>Жилье</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-          </li>
-          <li class="service-food">
-            <h3>Еда</h3>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-          </li>
-          <li class="service-present">
-            <h3>Сувениры</h3>
-            <p>Не только китайского, но и местного производства!</p>
-          </li>
-        </ul>
-      </section>
-
+      
+        <section class="resources container">
+          <h2 class="visualy-hidden">Ресурсы</h2>
+          <ul class="services">
+            <li class="service appartment">
+              <h3>Жилье</h3>
+              <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </li>
+            <li class="service food">
+              <h3>Еда</h3>
+              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="service present">
+              <h3>Сувениры</h3>
+              <p>Не только китайского, но и местного производства!</p>
+            </li>
+        
+          </ul>
+        </section>
 
       <article class="places">
+         <img src="img/bridge.jpg" width="800" height="257" alt="Мост дьявола">
         <div class="place-description">
           <h2 class="visualy-hidden">Мост дьявола</h2>
-          <h3 class="place-name">
-            Там есть<br> 
-            мост дьявола
-          </h3>
-          <span class="number">№2</span>
-          <p class="place-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+         
+          <div class="place-wrap">
+            <h3>
+              Там есть<br> 
+              мост дьявола
+            </h3>
+            <span class="number">№2</span>
+            <p class="place-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
         </div>
-        <img src="img/bridge.jpg" width="800" height="257" alt="Мост дьявола">
+        
       </article>
 
-      <section class="features">
+      <section class="features container">
         <h2 class="visualy-hidden">Преимущества</h2>
-        <ul class="feature">
-          <li class="feature-square">
-            <h3>Небольшая площадь</h3>
+        <ul class="feature-wrap">
+          <li class="feature square">
+            <h3 class="place-name">
+              Небольшая площадь
+            </h3>
             <span class="number">№3</span>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="feature-road">
-            <h3>Красивая дорога</h3>
+          <li class="feature road">
+            <h3 class="place-name">
+              Красивая дорога
+            </h3>
             <span class="number">№4</span>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="feature-tourists">
-            <h3>Мало туристов</h3>
+          <li class="feature tourists">
+            <h3 class="place-name">
+              Мало туристов
+            </h3>
             <span class="number">№5</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
       </section>
-
+      
       <div class="offer">
-        <h2>Заинтересовались?</h2>
-        <p class="offer-text">Укажите предполагаемые даты поездки,<br>
-          и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <div class="offer-wrap">
+          <h2>Заинтересовались?</h2>
+          <p class="offer-text">Укажите предполагаемые даты поездки,<br>
+            и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        </div>
+          <div>
         <form class="offer-form" action="https://echo.htmlacademy.ru" method="post">
           <button class="button button-search" type="button">Поиск гостиницы в Седоне</button>
           <p class="offer-item">
             <label for="offer-arrival">Дата заезда</label>
             <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
-            <button class="button button-item" type="button" class="visually-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item visualy-hidden" type="button">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-departure">Дата выезда</label>
             <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
-            <button class="button button-item" type="button" class="visually-hidden">Выбрать дату в календаре</button>
+            <button class="button button-item visualy-hidden" type="button">Выбрать дату в календаре</button>
           </p>
           <p class="offer-item">
             <label for="offer-adults">Взрослые</label>
@@ -124,8 +149,9 @@
             <input type="text" name="children" value="" placeholder="0" id="offer-children">
             <button class="button button-item" type="button">Увеличить количество детей</button>
           </p>
-          <button class="button button-find" class="button" type="submit">Найти</button>
+          <button class="button button-find" type="submit">Найти</button>
         </form>
+        </div>
       </div>
       <p class="map">
         <img src="img/map.jpg" width="1200" height="475" alt="Карта">
@@ -134,7 +160,7 @@
    <footer class="main-footer">
      <b class="hashtag">#Visitsedona</b>
      <section class="social">
-       <h2 class="visually-hidden">Социальные сети</h2>
+       <h2 class="visualy-hidden">Социальные сети</h2>
        <ul>
         <li>
           <a class="button social-button" href="#">Твиттер</a>
@@ -146,11 +172,12 @@
           <a class="button social-button" href="#">Ютуб</a>
         </li>
        </ul>
-    </section>
-    <p class="footer-copyright">
+      </section>
+     <p class="footer-copyright">
       <b>Website by</b>
       <a class="button button-copyright" href="http://htmlacademy.ru/intensive/htmlcss">Html academy</a>
-    </p>
+     </p>
   </footer>
+  </div>
 </body>
 </html>
