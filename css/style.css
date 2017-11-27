@@ -566,8 +566,8 @@ html {
 .filter {
     display: flex;
     flex-direction: row;
-    padding: 0;
-    padding-left: 72px;
+    padding: 0 72px;
+    
     margin: 0;
 }
 
@@ -606,7 +606,6 @@ html {
 .filter-wrap {
     padding: 0;
     margin: 0;
-    padding-right: 73px;
 }
 
 .slider-wrap {
