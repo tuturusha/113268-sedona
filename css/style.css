@@ -396,8 +396,8 @@ html {
 
 .main-navigation {
     position: relative;
-    padding: 0;
-    margin: 0 72px;
+    padding: 0 72px;
+    margin: 0;
 }
 
 .site-navigation {
@@ -557,8 +557,8 @@ html {
 }
 
 .offer-wrap {
-    padding-top: 56px;
-    padding-bottom: 53px;
+    margin-top: 56px;
+    margin-bottom: 53px;
 }
 
 .filters {
@@ -577,7 +577,7 @@ html {
     position: relative;
     padding: 0;
     margin: 0;
-    margin-left: 72px;
+    padding-left: 72px;
 }
 
 .block-option ul {
@@ -594,7 +594,7 @@ html {
     width: 288px;
     padding: 0;
     margin: 0;
-    margin-right: 200px;
+    padding-right: 200px;
     
 }
 
@@ -606,7 +606,7 @@ html {
 .filter-wrap {
     padding: 0;
     margin: 0;
-    margin-right: 73px;
+    padding-right: 73px;
 }
 
 .slider-wrap {
@@ -618,8 +618,8 @@ html {
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    padding: 0;
-    margin: 0 72px;
+    padding: 0 72px;
+    margin: 0;
     margin-bottom: 60px;
 }
 
@@ -697,15 +697,17 @@ html {
 
 .hashtag {
     width: 400px;
-    margin-left: 130px;
+    text-align: center;
 }
 
 .social {
     width: 400px;
+    text-align: center;
 }
 
 .footer-copyright {
     width: 400px;
+    text-align: center;
 }
 
 
