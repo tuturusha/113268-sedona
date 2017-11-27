@@ -223,8 +223,7 @@ a {
 .social-button {
     background-color: #81b3d2;
     color: #ffffff;
-    width: 46px;
-    height: 48px;
+    
 }
 
 .footer-copyright {
@@ -232,8 +231,7 @@ a {
 }
 
 .button-copyright {
-    width: 115px;
-    height: 41px;
+    
     color: #231f20;
 }
 
@@ -352,8 +350,6 @@ a {
 }
 
 .button-book {
-    width: 142px;
-    height: 27px;
     color: #ffffff;
     background-color: #766357;
     font-size: 14px;
@@ -361,8 +357,6 @@ a {
 }
 
 .button-details {
-    width: 110px;
-    height: 27px;
     background-color: #81b3d2;
     color: #ffffff;
     font-size: 14px;
@@ -578,10 +572,12 @@ html {
 }
 
 .block-option  {
-    width: 240px;
-    margin-left: 73px;
+    width: 400px;
     text-align: left;
     position: relative;
+    padding: 0;
+    margin: 0;
+    margin-left: 72px;
 }
 
 .block-option ul {
@@ -591,7 +587,6 @@ html {
 }
 
 .filter-option {
-    width: 240px;
     padding-bottom: 26px;
 }
 
@@ -609,19 +604,13 @@ html {
 }
 
 .filter-wrap {
-    width: 328px;
     padding: 0;
-    padding-top: 23px;
     margin: 0;
     margin-right: 73px;
 }
 
 .slider-wrap {
     padding-bottom: 10px;
-}
-.inner-container {
-    width: 1056px;
-    margin: 0 auto;
 }
 
 .sort {
@@ -630,7 +619,7 @@ html {
     text-align: center;
     justify-content: space-between;
     padding: 0;
-    margin: 0;
+    margin: 0 72px;
     margin-bottom: 60px;
 }
 
@@ -650,13 +639,17 @@ html {
 }
 
 .results-wrap {
-    padding: 0;
+    padding: 30px 72px;
     margin: 0;
-    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top: solid 2px #e5e5e5;
 
+}
+
+.results ul:last-child {
+    border-bottom: solid 2px #e5e5e5;
 }
 
 .results-left {
