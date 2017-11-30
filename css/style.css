@@ -145,6 +145,22 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
 }
 
+.offer-form-container {
+    display: flex;
+    margin: 54px auto;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 458px;
+    
+   
+}
+
+.offer-item {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
 .offer-form  input[type="text"] {
     font: inherit;
     background-color: #f2f2f2;
@@ -159,25 +175,19 @@ input[type="radio"].visually-hidden {
     border: 2px solid #f2f2f2;
 }
  
-.button-item,
-.sort-arrows-up,
-.sort-arrows-down {
+.button-item {
     color: #a9a9a9;
     border: none;
     background: none;
 }
 
 .button-item:hover,
-.button-copyright:hover,
-.sort-arrows-up:hover,
-.sort-arrows-down:hover {
+.button-copyright:hover {
     color: #000000;
 }
 
 .button-item:active,
-.button-copyright:active,
-.sort-arrows-up:active,
-.sort-arrows-down:active {
+.button-copyright:active {
     color: #81b3d2;
 }
 
@@ -720,6 +730,48 @@ html {
     margin-left: 30px;
 }
 
+.sort-arrows-up,
+.sort-arrows-down {
+    border: none;
+    background: none;
+    outline: none;
+    margin-right: 12px; 
+    position: relative;
+    width: 11px;
+    height: 10px;
+}
+
+.sort-arrows-up::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 11px solid #a9a9a9;   
+}
+
+.sort-arrows-down::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 11px solid #a9a9a9;   
+}
+
+.sort-arrows-up:hover::after,
+.sort-arrows-down:hover::after {
+    border-color:  #000000 transparent;
+}
+.sort-arrows-up:active::after,
+.sort-arrows-down:active::after {
+    border-color:  #81b3d2 transparent;
+}
+
 .results ul {
     padding: 0;
     margin: 0;
@@ -746,8 +798,13 @@ html {
 
 .results-right {
     width: 241px;
-    text-align: center;
 } 
+
+.result-card-rating {
+    
+    
+    margin-top: 96px;
+}
 
 .wrap-card {
     display: flex;
