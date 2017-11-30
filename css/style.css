@@ -798,12 +798,41 @@ html {
 
 .results-right {
     width: 241px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
 } 
 
 .result-card-rating {
-    
-    
-    margin-top: 96px;
+    position: relative;
+    height: 27px;
+    width: 110px;
+    text-align: center;   
+}
+
+.result-card-rating::before {
+    position: absolute;
+    content: "";
+    margin-right: 6px;
+    width: 88px;
+    height: 17px;
+    bottom: 67px;
+    left: 21px;
+    background-image: url("../img/star.svg");
+    background-repeat: space;
+}
+
+.three::before {
+    width: 65px;
+    left: 39px;
+}
+
+.two::before {
+    width: 41px;
+    left: 47px;
 }
 
 .wrap-card {
