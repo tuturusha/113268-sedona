@@ -68,12 +68,22 @@
                   </li>
                 </ul>
               </fieldset>
-              <div class="block-option filter-wrap">
-                <fieldset class="slider-wrap">
-                  <legend class="filter-option">Стоимость в сутки(Р):</legend>
-                  <label for="filter-slider" class="filter-option">от 0 до 3000</label>
-                  <input type="range" min="0" max="3000" id="filter-slider">
-                </fieldset>
+              <div class="slider-wrap">
+                  <legend class="slider-title">Стоимость в сутки(Р):</legend>
+                  <div class="price-controls">
+                    <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                    <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              
+                  </div>
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar"></div>
+                    </div>
+                    <div class="range-toggle range-toggle-min"></div>
+                    <div class="range-toggle range-toggle-max"></div>
+            
+                  </div>
+                
                 <button type="submit" class="filter-button button">Показать</button>
             </div>
             </form>
