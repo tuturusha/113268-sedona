@@ -242,6 +242,7 @@ input[type="radio"].visually-hidden {
 .social-button:active,
 .button-details:active {
     background-color: #5496bd; 
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .social-button:hover path,
@@ -323,6 +324,9 @@ input[type="radio"].visually-hidden {
 
 .filter fieldset {
     border: none;
+    padding: 0;
+    
+
 }
 
 .filters legend {
@@ -704,7 +708,40 @@ html {
 }
 
 .filter-option {
-    padding-bottom: 26px;
+    margin-bottom: 26px;
+   
+    padding-left: 40px;
+}
+
+.filter-option label {
+    position: relative;
+    display: block;
+}
+
+.filter-input-checkbox + label::before {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/checkbox-off.svg");
+    
+}
+
+.filter-input-checkbox:checked + label::after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/checkbox-on.svg");
+    
+}
+
+.filter-option input[type="checkbox"]:disabled:checked+ label::after {
+    fill: #6a6a6a;
 }
 
 .hotel-block {
