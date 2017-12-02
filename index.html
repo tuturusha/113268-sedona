@@ -57,7 +57,7 @@
         </div>
       </article>
       
-        <section class="resources container">
+        <section class="resources">
           <h2 class="visually-hidden">Ресурсы</h2>
           <ul class="services">
             <li class="service appartment">
@@ -93,7 +93,7 @@
         
       </article>
 
-      <section class="features container">
+      <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="feature-wrap">
           <li class="feature square">
@@ -126,32 +126,40 @@
           <p class="offer-text">Укажите предполагаемые даты поездки,<br>
             и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         </div>
-          <div>
-        <form class="offer-form" action="https://echo.htmlacademy.ru" method="post">
+        
+        <div class="offer-wrap">
           <button class="button button-search" type="button">Поиск гостиницы в Седоне</button>
-          <p class="offer-item">
-            <label for="offer-arrival">Дата заезда</label>
-            <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
-            <button class="button button-item visually-hidden" type="button">Выбрать дату в календаре</button>
-          </p>
-          <p class="offer-item">
-            <label for="offer-departure">Дата выезда</label>
-            <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
-            <button class="button button-item visually-hidden" type="button">Выбрать дату в календаре</button>
-          </p>
-          <p class="offer-item">
-            <label for="offer-adults">Взрослые</label>
-            <button class="button button-item visually-hidden" type="button">Уменьшить количество взрослых</button>
-            <input type="text" name="adults" value="" placeholder="2" id="offer-adults">
-            <button class="button button-item visually-hidden" type="button">Увеличить количество взрослых</button>
-            <label for="offer-children">Дети</label>
-            <button class="button button-item visually-hidden" type="button">Уменьшить количество детей</button>
-            <input type="text" name="children" value="" placeholder="0" id="offer-children">
-            <button class="button button-item visually-hidden" type="button">Увеличить количество детей</button>
-          </p>
-          <button class="button button-find" type="submit">Найти</button>
-        </form>
-        </div>
+          <form class="offer-form" action="https://echo.htmlacademy.ru" method="post">
+            
+            <div class="offer-form-container">
+              <p class="offer-item">
+                <label for="offer-arrival">Дата заезда</label>
+                <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
+                <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
+              </p>
+              <p class="offer-item">
+                <label for="offer-departure">Дата выезда</label>
+                <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
+                <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
+              </p>
+              <div class="offer-people">
+                <div class="people">
+                  <span>
+                   <label for="offer-adults">Взрослые</label>
+                  </span>
+                  <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество взрослых</span></button><input type="text" name="adults" value="" placeholder="2" id="offer-adults"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество взрослых</span></button>
+                </div>
+                <div class="people">
+                  <span>
+                    <label for="offer-children">Дети</label>
+                  </span>
+                <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество детей</span></button><input type="text" name="children" value="" placeholder="0" id="offer-children"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество детей</span></button>
+                </div>
+              </div>
+              <button class="button button-find" type="submit">Найти</button>
+            </div>
+          </form>
+        </div> 
       </div>
       <p class="map">
         <img src="img/map.jpg" width="1200" height="475" alt="Карта">
@@ -168,8 +176,7 @@
             
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                width="17px" height="15px" viewBox="0 0 17 15" enable-background="new 0 0 17 15" xml:space="preserve">
-            <image overflow="visible" width="17" height="15" xlink:href="t.png" >
-            </image>
+           
             <g id="W6EeEF_1_">
               <g>
                 <path fill="#FFFFFF" d="M10.95,0.144c1.685-0.496,2.984,0.27,3.577,1.179c0.673-0.231,1.331-0.481,2.011-0.708
@@ -194,14 +201,13 @@
         </li>
         <li>
           <a class="button social-button" href="#"><span class="visually-hidden">Ютуб</span>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
-<image overflow="visible" enable-background="new    " width="20" height="16" xlink:href="youtube.png" >
-</image>
-<path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
-	 M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
-</svg>
-          </a>
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
+
+      <path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
+        M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
+      </svg>
+                </a>
         </li>
        </ul>
       </section>

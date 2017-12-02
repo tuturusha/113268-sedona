@@ -134,6 +134,22 @@ input[type="radio"].visually-hidden {
    text-align: center; 
 }
 
+.offer-wrap {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-top: 56px;
+}
+
+.offer-form {
+    position: absolute;
+    top: 90px;
+    left: 315px;
+    width: 568px;
+    height: 395px;
+    background: #ffffff;
+}
+
 .offer h2 {
     font-size: 30px;
     font-weight: bold;
@@ -147,7 +163,7 @@ input[type="radio"].visually-hidden {
 
 .offer-form-container {
     display: flex;
-    margin: 54px auto;
+    margin: 55px auto;
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
@@ -159,12 +175,21 @@ input[type="radio"].visually-hidden {
 .offer-item {
     margin: 0;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .offer-form  input[type="text"] {
     font: inherit;
     background-color: #f2f2f2;
+    margin-left: 15px;
+    padding-left: 14px;
+    padding-right: 40px;
+    width: 332px;
+    box-sizing: border-box;
+    
+
 }
+
 
 .offer-form  input[type="text"]:hover {
     background-color: #f2f2f2;
@@ -176,20 +201,96 @@ input[type="radio"].visually-hidden {
 }
  
 .button-item {
-    color: #a9a9a9;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 21px;
+    height: 22px;
+    background-image: url("../img/calendar.svg");
     border: none;
-    background: none;
+    outline: none;
 }
 
-.button-item:hover,
-.button-copyright:hover {
-    color: #000000;
+.button-item:hover {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 21px;
+    height: 22px;
+    background-image: url("../img/calendarhover.svg");
 }
 
-.button-item:active,
-.button-copyright:active {
-    color: #81b3d2;
+.button-item:active {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 21px;
+    height: 22px;
+    background-image: url("../img/calendaractive.svg");
 }
+
+.offer-people {
+    display: flex;
+    width: 458px;
+    justify-content: space-between;
+    
+}
+
+.people input[type="text"] {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.people span label {
+    padding-right: 15px;
+}
+
+
+.button-regular {
+    position: relative;
+    border: none;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0; 
+    text-align: center;
+    background-color: #f2f2f2;
+    outline: none;
+
+}
+
+.button-regular::before,
+.button-regular::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 11px;
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;
+  }
+
+.button-increase::after {
+    transform: rotate(90deg);
+}
+
+.button-regular:hover::before,
+.button-regular:hover::after,
+.button-increase:hover::after {
+    background-color: #000000;
+}
+
+.button-regular:active::before,
+.button-regular:active::after,
+.button-increase:active::after {
+    background-color: #81b3d2;
+}
+
 
 .button {
     display: inline-block;
@@ -198,7 +299,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
-    background-color: #ffffff;
+    
 }
 
 .button-search,
@@ -210,9 +311,9 @@ input[type="radio"].visually-hidden {
 }
 
 .button-search {
+    position: relative;
     background-color: #766357;
-    width: 568px;
-    height: 86px;
+    padding: 30px 140px;
 }
 
 .button-search:hover,
@@ -230,6 +331,11 @@ input[type="radio"].visually-hidden {
     width: 458px;
     height: 58px;
     background-color: #81b3d2;
+    margin-top: 55px;
+}
+
+.map {
+    margin: 0;
 }
 
 .button-find:hover,
@@ -676,10 +782,6 @@ html {
     padding-right: 70px;
 }
 
-.offer-wrap {
-    margin-top: 56px;
-    margin-bottom: 53px;
-}
 
 .filters {
     margin-bottom: 30px;
@@ -729,7 +831,7 @@ html {
     
 }
 
-.filter-input-checkbox:checked + label::after {
+.filter-input-checkbox:checked + label::before {
     content: "";
     position: absolute;
     left: -40px;
@@ -740,8 +842,31 @@ html {
     
 }
 
-.filter-option input[type="checkbox"]:disabled:checked+ label::after {
-    fill: #6a6a6a;
+.filter-input-checkbox:focus + label::before {
+    border-color: #663d15;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+.filter-input-checkbox:disabled:checked + label::after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/checkbox-ondisabled.svg");
+}
+
+.filter-input-checkbox:disabled + label::after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/checkbox-offdisabled.svg");
 }
 
 .hotel-block {
