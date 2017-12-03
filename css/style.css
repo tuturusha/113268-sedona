@@ -1080,19 +1080,19 @@ html {
     margin: 0;
 } 
 
-.result-card-rating {
+.stars {
     position: relative;
     width: 110px;
     text-align: center;   
 }
 
-.result-card-rating::before {
+.stars::before {
     position: absolute;
     content: "";
     margin-right: 6px;
     width: 88px;
     height: 17px;
-    bottom: 67px;
+    bottom: 7px;
     left: 21px;
     background-image: url("../img/star.svg");
     background-repeat: space;
@@ -1103,7 +1103,7 @@ html {
     left: 39px;
 }
 
-.two::before {
+two::before {
     width: 41px;
     left: 47px;
 }
@@ -1133,6 +1133,7 @@ html {
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
+    margin-top: 35px;
     padding: 0;
 }
 
