@@ -1074,6 +1074,7 @@ html {
     width: 241px;
     
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     padding: 0;
@@ -1082,14 +1083,14 @@ html {
 
 .stars {
     position: relative;
+    margin-bottom: 45px;
     width: 110px;
     text-align: center;   
 }
 
-.stars::before {
+.stars::after {
     position: absolute;
     content: "";
-    margin-right: 6px;
     width: 88px;
     height: 17px;
     bottom: 7px;
@@ -1098,14 +1099,14 @@ html {
     background-repeat: space;
 }
 
-.three::before {
+.three::after {
     width: 65px;
     left: 39px;
 }
 
-two::before {
+.two::after {
     width: 41px;
-    left: 47px;
+    left: 68px;
 }
 
 .card-container {
