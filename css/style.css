@@ -1082,31 +1082,35 @@ html {
 } 
 
 .stars {
-    position: relative;
     margin-bottom: 45px;
     width: 110px;
-    text-align: center;   
-}
-
-.stars::after {
-    position: absolute;
-    content: "";
+    text-align: center;  
     width: 88px;
     height: 17px;
-    bottom: 7px;
-    left: 21px;
+    
     background-image: url("../img/star.svg");
-    background-repeat: space;
+    background-repeat: space; 
 }
 
-.three::after {
+
+.three {
+    margin-bottom: 45px;
+    text-align: center;  
+    height: 17px;
+    background-image: url("../img/star.svg");
+    background-repeat: space; 
     width: 65px;
-    left: 39px;
+    
 }
 
-.two::after {
+.two {
+    margin-bottom: 45px;
+    text-align: center;  
+    height: 17px;
+    background-image: url("../img/star.svg");
+    background-repeat: space; 
     width: 41px;
-    left: 68px;
+    
 }
 
 .card-container {
