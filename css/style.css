@@ -182,7 +182,7 @@ input[type="radio"].visually-hidden {
     margin-left: 15px;
     padding-left: 14px;
     padding-right: 40px;
-    width: 332px;
+    width: 348px;
     box-sizing: border-box;
 }
 
@@ -243,7 +243,7 @@ input[type="radio"].visually-hidden {
 }
 
 .people span label {
-    padding-right: 15px;
+    padding-right: 35px;
 }
 
 
@@ -534,23 +534,24 @@ input[type="radio"].visually-hidden {
 }
 
 .button-book {
-    position: absolute;
-    right: 0;
+    
     color: #ffffff;
     background-color: #766357;
     font-size: 14px;
     line-height: 21px;
     padding: 3px 17px; 
+    margin-top: 10px
 }
 
 .button-details {
-    position: absolute;
-    left: 0;
+    
+    
     background-color: #81b3d2;
     color: #ffffff;
     font-size: 14px;
     line-height: 21px;
     padding: 3px 17px;
+    margin-top: 10px
 }
 
 .result-card {
@@ -809,21 +810,23 @@ html {
 .filter-input-checkbox + label::before {
     content: "";
     position: absolute;
-    left: -40px;
-    top: 0;
-    width: 23px;
-    height: 23px;
+    left: -43px;
+    top: 3px;
+    width: 27px;
+    height: 27px;
     background-image: url("../img/checkbox-off.svg");  
+    background-repeat: no-repeat;
 }
 
 .filter-input-checkbox:checked + label::before {
     content: "";
     position: absolute;
-    left: -40px;
-    top: 0;
-    width: 23px;
-    height: 23px;
-    background-image: url("../img/checkbox-on.svg"); 
+    left: -43px;
+    top: 3px;
+    width: 27px;
+    height: 27px;
+    background-image: url("../img/checkbox-on.svg");
+    background-repeat: no-repeat; 
 }
 
 .filter-input-checkbox:focus + label::before {
@@ -836,21 +839,24 @@ html {
 .filter-input-checkbox:disabled:checked + label::after {
     content: "";
     position: absolute;
-    left: -40px;
-    top: 0;
-    width: 23px;
-    height: 23px;
+    left: -43px;
+    top: 3px;
+    width: 27px;
+    height: 27px;
     background-image: url("../img/checkbox-ondisabled.svg");
+    background-repeat: no-repeat; 
 }
 
 .filter-input-checkbox:disabled + label::after {
     content: "";
     position: absolute;
-    left: -40px;
-    top: 0;
-    width: 23px;
-    height: 23px;
+    left: -43px;
+    top: 3px;
+    width: 27px;
+    height: 27px;
     background-image: url("../img/checkbox-offdisabled.svg");
+    background-repeat: no-repeat;
+
 }
 
 .hotel-block {
@@ -1102,13 +1108,6 @@ html {
     left: 47px;
 }
 
-.wrap-card {
-    display: flex;
-    width: 264px;
-    padding: 0;
-    margin: 0;
-}
-
 .card-container {
     display: inline-block;
     vertical-align: top;
@@ -1117,25 +1116,24 @@ html {
     padding: 0;
 }
 
-.result-card {
+.wrap-card {
+    display: flex;
+    flex-direction: row;
     width: 260px;
+    justify-content: space-between;
 }
 
 .wrap-item-card {
-    position: relative;
-    width: 260px;
-    padding-bottom: 15px;
+    margin-right: 5px;
 }
+
 
 .main-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0;
-    margin-top: 36px;
-    
+    margin: 0 auto;
     padding: 0;
-
 }
 
 .hashtag {
