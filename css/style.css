@@ -143,7 +143,7 @@ input[type="radio"].visually-hidden {
 
 .offer-form {
     position: absolute;
-    top: 90px;
+    top: 86px;
     left: 315px;
     width: 568px;
     height: 395px;
@@ -295,6 +295,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
+    border: none;
     
 }
 
