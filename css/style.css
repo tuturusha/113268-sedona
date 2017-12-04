@@ -1154,6 +1154,9 @@ html {
     text-align: center;
 }
 
+.shadow {
+    box-shadow: 0 0 40px 2px #dbdbdb;
+}
 
 
 
