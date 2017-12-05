@@ -976,6 +976,7 @@ html {
 
   .price-controls input {
     width: 50px;
+    height: 25px;
     margin: 0;
   
     color: inherit;
