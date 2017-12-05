@@ -152,8 +152,24 @@ input[type="radio"].visually-hidden {
     display: none;
 }
 
+@keyframes move {
+        0% {
+          transform: translateY(-5%);
+        }
+
+        50% {
+          transform: translateX(30%);
+        } 
+        90% {
+            transform: translateX(-30%);
+          }
+      
+}
+
+
 .form-show {
     display: block;
+    animation: move 0.4s;
   }
 
 .offer h2 {
