@@ -154,13 +154,27 @@ input[type="radio"].visually-hidden {
 
 @keyframes move {
         0% {
-          transform: translateY(-10%);
+          transform: translateY(-35%);
         }
 
-        50% {
-          transform: translateY(5%);
+        20% {
+          transform: translateY(-25%);
         } 
+
+        30% {
+            transform: translateY(-20%);
+          } 
+        50% {
+            transform: translateY(-15%);
+          } 
+
+        70% {
+            transform: translateY(-10%);
+          }
         90% {
+            transform: translateY(-5%);
+          }
+        100% {
             transform: translateY(0%);
           }
        
@@ -170,7 +184,8 @@ input[type="radio"].visually-hidden {
 
 .form-show {
     display: block;
-    animation: move 0.4s;
+    animation: move 0.7s;
+    z-index: 2;
   }
 
 .offer h2 {
@@ -335,6 +350,7 @@ input[type="radio"].visually-hidden {
     position: relative;
     background-color: #766357;
     padding: 30px 140px;
+    z-index: 3;
 }
 
 .button-search:hover,
