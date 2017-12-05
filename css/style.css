@@ -143,12 +143,18 @@ input[type="radio"].visually-hidden {
 
 .offer-form {
     position: absolute;
+    z-index: 1;
     top: 86px;
     left: 315px;
     width: 568px;
     height: 395px;
     background: #ffffff;
+    display: none;
 }
+
+.form-show {
+    display: block;
+  }
 
 .offer h2 {
     font-size: 30px;
@@ -168,6 +174,7 @@ input[type="radio"].visually-hidden {
     flex-direction: row;
     flex-wrap: wrap;
     width: 458px;
+
 }
 
 .offer-item {
