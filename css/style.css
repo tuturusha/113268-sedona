@@ -154,15 +154,16 @@ input[type="radio"].visually-hidden {
 
 @keyframes move {
         0% {
-          transform: translateY(-5%);
+          transform: translateY(-10%);
         }
 
         50% {
-          transform: translateX(30%);
+          transform: translateY(5%);
         } 
         90% {
-            transform: translateX(-30%);
+            transform: translateY(0%);
           }
+       
       
 }
 
