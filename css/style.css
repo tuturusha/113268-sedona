@@ -133,13 +133,14 @@ input[type="radio"].visually-hidden {
 
 .offer {
    text-align: center; 
+   margin-top: -3px;
 }
 
 .offer-wrap {
     position: relative;
     padding: 0;
     margin: 0;
-    margin-top: 47px;
+    margin-top: 49px;
 }
 
 .offer-button {
@@ -206,6 +207,7 @@ input[type="radio"].visually-hidden {
 
 .offer-text {
     font-weight: normal;
+    margin-top: -3px;
 }
 
 .offer-form-container {
@@ -214,27 +216,29 @@ input[type="radio"].visually-hidden {
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 458px;
+    width: 463px;
 
 }
 
 .offer-item {
-    margin-top: 3px;
-    margin-bottom: 34px;
+    margin-top: 1px;
+    margin-bottom: 31px;
     position: relative;
 }
 .offer-item label {
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .offer-form  input[type="text"] {
     font: inherit;
     background-color: #f2f2f2;
-    margin-left: 15px;
-    padding-left: 14px;
-    padding-right: 40px;
-    width: 348px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
+    width: 343px;
     box-sizing: border-box;
+    border: none;
+    height: 35px;
 }
 
 
@@ -249,8 +253,8 @@ input[type="radio"].visually-hidden {
  
 .button-item {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 3px;
+    right: 7px;
     width: 21px;
     height: 22px;
     background-image: url("../img/calendar.svg");
@@ -294,11 +298,11 @@ input[type="radio"].visually-hidden {
 }
 
 .people span label {
-    padding-right: 41px;
+    padding-right: 43px;
 }
 
 .children span label {
-    padding-right: 26px;
+    padding-right: 24px;
 }
 
 
@@ -365,7 +369,7 @@ input[type="radio"].visually-hidden {
 .button-search {
     position: relative;
     background-color: #766357;
-    padding: 30px 140px;
+    padding: 30px 138px;
     z-index: 3;
 }
 
@@ -381,10 +385,10 @@ input[type="radio"].visually-hidden {
 }
 
 .button-find {
-    width: 458px;
+    width: 460px;
     height: 58px;
     background-color: #81b3d2;
-    margin-top: 51px;
+    margin-top: 53px;
 }
 
 .map-container {
@@ -628,7 +632,6 @@ input[type="radio"].visually-hidden {
     line-height: 26px;
     font-weight: bold;
     color: #000000;
-    margin-top: -13px;
     display: inline-block;
 }
 
@@ -768,7 +771,7 @@ html {
     display: block;
     padding-top: 27px;
     width: 302px;
-    padding-left: 48px;
+    padding-left: 49px;
     text-align: center;
 }
 
@@ -788,11 +791,16 @@ html {
      position: relative;
     text-align: center;
     width: 400px;
-    margin-top: 145px;
-    margin-bottom: 73px;
+    margin-top: 140px;
+    margin-bottom: 67px;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.service p {
+    padding-top: 5px;
+}
+
 
 .service::before {
     content: "";
@@ -840,7 +848,7 @@ html {
     text-align: center;
     width: 400px;
     margin-top: 25px;
-    margin-bottom: 44px;
+    margin-bottom: 46px;
     padding-left: 60px;
     padding-right: 60px;
      
@@ -853,11 +861,11 @@ html {
 .place-name {
     padding-left: 70px;
     padding-right: 70px;
-    margin-bottom: 27px;
+    margin-bottom: 24px;
 }
 
 .place-text {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 
@@ -1095,7 +1103,7 @@ html {
     justify-content: space-between;
     padding: 0 72px;
     margin: 0;
-    margin-bottom: 29px;
+    margin-bottom: 33px;
 }
 .sort div {
     display: flex;
@@ -1168,19 +1176,20 @@ html {
 }
 
 .results-wrap {
-    padding: 30px 72px;
-    padding-bottom: 23px;
+    padding: 26px 72px;
+    
     
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: solid 2px #e5e5e5;
+    border-top: solid 1px #e5e5e5;
 
 }
 
 .results ul:last-child {
     border-bottom: solid 2px #e5e5e5;
+    padding-bottom: 7px;
 }
 
 .results-left {
@@ -1200,7 +1209,7 @@ html {
     margin-bottom: 50px;
     width: 110px;
     text-align: center;  
-    width: 88px;
+    width: 87px;
     height: 17px;
     
     background-image: url("../img/star.svg");
@@ -1253,7 +1262,7 @@ html {
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-    padding: 30px 0;
+    padding: 27px 0;
 }
 
 .hashtag {
