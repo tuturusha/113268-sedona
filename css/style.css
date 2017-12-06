@@ -67,22 +67,23 @@ input[type="radio"].visually-hidden {
 
 
 .tagline-container {
-    height: 518px;
+    height: 507px;
     background-color: #31647f;
      background-image: url("../img/mask.png"), url("../img/background-photo.jpg");
     background-position: bottom 0px center, center;
     background-repeat: no-repeat;
-    background-size:  1200px 57px, 1200px 520px;
+    background-size:  1200px 58px, 1200px 507px;
     text-align: center;
 }
 
 .description {
-    
+    width: 616px;
     color: #000000;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
     text-align: center;
+    padding-top: 23px;
 }
 
 .causes {
@@ -138,7 +139,15 @@ input[type="radio"].visually-hidden {
     position: relative;
     padding: 0;
     margin: 0;
-    margin-top: 56px;
+    margin-top: 47px;
+}
+
+.offer-button {
+    padding: 0;
+    margin: 0;
+    margin-top: 46px;
+    position: relative;
+   
 }
 
 .offer-form {
@@ -210,9 +219,12 @@ input[type="radio"].visually-hidden {
 }
 
 .offer-item {
-    margin: 0;
-    margin-bottom: 30px;
+    margin-top: 3px;
+    margin-bottom: 34px;
     position: relative;
+}
+.offer-item label {
+    padding-left: 3px;
 }
 
 .offer-form  input[type="text"] {
@@ -238,7 +250,7 @@ input[type="radio"].visually-hidden {
 .button-item {
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 5px;
     width: 21px;
     height: 22px;
     background-image: url("../img/calendar.svg");
@@ -282,7 +294,11 @@ input[type="radio"].visually-hidden {
 }
 
 .people span label {
-    padding-right: 35px;
+    padding-right: 41px;
+}
+
+.children span label {
+    padding-right: 26px;
 }
 
 
@@ -303,8 +319,8 @@ input[type="radio"].visually-hidden {
 .button-regular::after {
     content: "";
     position: absolute;
-    top: 18px;
-    left: 11px;
+    top: 16px;
+    left: 14px;
     width: 12px;
     height: 3px;
     background-color: #a9a9a9;
@@ -368,7 +384,7 @@ input[type="radio"].visually-hidden {
     width: 458px;
     height: 58px;
     background-color: #81b3d2;
-    margin-top: 55px;
+    margin-top: 51px;
 }
 
 .map-container {
@@ -488,9 +504,6 @@ input[type="radio"].visually-hidden {
     line-height: 21px;
 }
 
-.filter-option {
-   list-style: none; 
-}
 
 .filter-option input[type="checkbox"]:hover {
     color: #ffffff;
@@ -499,6 +512,7 @@ input[type="radio"].visually-hidden {
 .filter-button {
     display: block;
     margin: 0 auto;
+    margin-right: 94px;
     padding: 6px 35px;
   
     font-size: 14px;
@@ -524,12 +538,14 @@ input[type="radio"].visually-hidden {
 
 .sort-block {
     list-style: none;
+    margin-left: 13px;
 }
 
 .sort-title {
     font-size: 12px;
     line-height: 18px;
     font-weight: normal;
+    margin-left: 48px;
 }
 
 .sort-block a {
@@ -579,6 +595,7 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     line-height: 21px;
     color: #333333;
+    margin-right: 12px;
 }
 
 .result-card-rating {
@@ -611,6 +628,8 @@ input[type="radio"].visually-hidden {
     line-height: 26px;
     font-weight: bold;
     color: #000000;
+    margin-top: -13px;
+    display: inline-block;
 }
 
 .result-card:hover {
@@ -644,10 +663,11 @@ html {
     flex-wrap: wrap;
     align-items: center;
     margin: 0;
-    margin-bottom: 22px;
+    margin-bottom: 17px;
     padding: 0;
     list-style: none;
 }
+
 
 .site-navigation li {
     width: 20%;  
@@ -695,26 +715,26 @@ html {
 .tagline-container .welcome {
     width: 188px;
     height: 45px;
-    margin-top: 45px;
-    margin-bottom: 13px;
+    margin-top: 77px;
+    margin-bottom: 10px;
     
 }
 
 .tagline-container .gorgeous {
     width: 256px;
     height: 30px;
-    margin-bottom: 58px;
+    margin-bottom: 53px;
 }
 
 .tagline-container .sedona {
     width: 459px;
     height: 78px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 .wrapper {
     padding: 0;
-    margin: 50px auto;
+    margin: 36px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -724,9 +744,6 @@ html {
     margin-top: 30px;
 }
 
-.description {
-    width: 445px;
-}
 
 .places {
     display: flex;
@@ -749,10 +766,9 @@ html {
 
 .place-wrap {
     display: block;
-    padding-top: 47px;
-    width: 280px;
-    padding-left: 60px;
-    padding-right: 40px;
+    padding-top: 27px;
+    width: 302px;
+    padding-left: 48px;
     text-align: center;
 }
 
@@ -772,8 +788,8 @@ html {
      position: relative;
     text-align: center;
     width: 400px;
-    margin-top: 160px;
-    margin-bottom: 85px;
+    margin-top: 145px;
+    margin-bottom: 73px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -781,7 +797,7 @@ html {
 .service::before {
     content: "";
     position: absolute;
-    bottom: 137px;
+    bottom: 118px;
     left: 163px;
     width: 75px;
     height: 81px;
@@ -823,16 +839,25 @@ html {
 .feature {
     text-align: center;
     width: 400px;
-    margin-top: 45px;
-    margin-bottom: 57px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 44px;
+    padding-left: 60px;
+    padding-right: 60px;
      
+}
+
+.feature p {
+    margin-top: 24px;
 }
 
 .place-name {
     padding-left: 70px;
     padding-right: 70px;
+    margin-bottom: 27px;
+}
+
+.place-text {
+    margin-top: 25px;
 }
 
 
@@ -863,10 +888,12 @@ html {
 }
 
 .filter-option {
-    margin-bottom: 26px;
+    margin-bottom: 27px;
    
     padding-left: 40px;
+    list-style: none; 
 }
+    
 
 .filter-option label {
     position: relative;
@@ -876,8 +903,8 @@ html {
 .filter-input-checkbox + label::before {
     content: "";
     position: absolute;
-    left: -43px;
-    top: 3px;
+    left: -41px;
+    top: -3px;
     width: 27px;
     height: 27px;
     background-image: url("../img/checkbox-off.svg");  
@@ -887,8 +914,8 @@ html {
 .filter-input-checkbox:checked + label::before {
     content: "";
     position: absolute;
-    left: -43px;
-    top: 3px;
+    left: -41px;
+    top: -3;
     width: 27px;
     height: 27px;
     background-image: url("../img/checkbox-on.svg");
@@ -905,8 +932,8 @@ html {
 .filter-input-checkbox:disabled:checked + label::after {
     content: "";
     position: absolute;
-    left: -43px;
-    top: 3px;
+    left: -41px;
+    top: -3;
     width: 27px;
     height: 27px;
     background-image: url("../img/checkbox-ondisabled.svg");
@@ -916,8 +943,8 @@ html {
 .filter-input-checkbox:disabled + label::after {
     content: "";
     position: absolute;
-    left: -43px;
-    top: 3px;
+    left: -41px;
+    top: -3;
     width: 27px;
     height: 27px;
     background-image: url("../img/checkbox-offdisabled.svg");
@@ -932,10 +959,21 @@ html {
    margin-right: auto;  
 }
 
+
+
 .block-option legend {
-    padding-top: 23px;
+    padding-top: 26px;
     padding-bottom: 24px;
 }
+
+.hotel-block legend {
+   padding-left: 15px; 
+ }
+ .hotel-block ul {
+
+    padding-left: 15px; 
+
+  }
 
 .filter-wrap {
     width: 328px;
@@ -945,17 +983,17 @@ html {
 }
 
 .slider-wrap {
-    padding-bottom: 10px;
+    width: 318px;
 }
 
 .slider-title {
-    margin-top: 23px;
-    padding-bottom: 9px;
+    margin-top: 25px;
+    padding-bottom: 11px;
 }
 
 .price-controls {
     position: relative;
-    height: 36px;
+    height: 31px;
     margin-bottom: 20px;
     font-size: 0;
     
@@ -987,7 +1025,7 @@ html {
 
   .price-controls .min-price,
   .price-controls .max-price {
-    width: 90px;
+    width: 82px;
     padding-left: 65px;
   }
 
@@ -1057,17 +1095,27 @@ html {
     justify-content: space-between;
     padding: 0 72px;
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 29px;
+}
+.sort div {
+    display: flex;
+    align-items: center;
+    
 }
 
 .sort-block {
     padding: 0;
     margin: 0;
+    margin-left: 14px;
 }
 
 .sort-block li {
     display: inline;
-    margin-left: 30px;
+    margin-left: 29px;
+}
+
+.arrows-wrap {
+    margin-right: -12px;
 }
 
 .sort-arrows-up,
@@ -1121,6 +1169,8 @@ html {
 
 .results-wrap {
     padding: 30px 72px;
+    padding-bottom: 23px;
+    
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -1147,7 +1197,7 @@ html {
 } 
 
 .stars {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     width: 110px;
     text-align: center;  
     width: 88px;
@@ -1159,7 +1209,7 @@ html {
 
 
 .three {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     text-align: center;  
     height: 17px;
     background-image: url("../img/star.svg");
@@ -1169,7 +1219,7 @@ html {
 }
 
 .two {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     text-align: center;  
     height: 17px;
     background-image: url("../img/star.svg");
@@ -1182,7 +1232,7 @@ html {
     display: inline-block;
     vertical-align: top;
     margin: 0;
-    margin-left: 30px;
+    margin-left: 25px;
     padding: 0;
 }
 
@@ -1203,7 +1253,7 @@ html {
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-    padding: 36px 0;
+    padding: 30px 0;
 }
 
 .hashtag {
