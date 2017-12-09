@@ -40,21 +40,18 @@
           </b>
           <p class="causes">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         </div>
-      
         <article class="places">
-          <div class="place-description">
+          <div class="place-description town">
             <h2 class="place-name">
                 Настоящий городок
-              </h2>
-              <span class="number">- №1 -</span>
-              <p class="place-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
-            
+            </h2>
+            <span class="number">- №1 -</span>
+            <p class="place-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
           </div>
           <div class="place-image">
-            <img src="img/town.jpg" width="1600" height="800" alt="Настоящий городок">
+            <img src="img/town.jpg" width="800" height="256" alt="Настоящий городок" class="visually-hidden">
           </div>
         </article>
-        
         <section class="resources">
           <h2 class="visually-hidden">Ресурсы</h2>
           <ul class="services">
@@ -73,90 +70,76 @@
         
           </ul>
         </section>
-
         <article class="places">
-          <img src="img/bridge.jpg" width="1600" height="800" alt="Мост дьявола">
-            <div class="place-description">
-            <h2 class="visually-hidden">Мост дьявола</h2>
-          
-            
-              <h3 class="place-name">
+          <div class="place-bridge-image">
+            <img src="img/bridge.jpg" width="800" height="256" alt="Мост дьявола" class="visually-hidden"> 
+          </div>
+          <div class="place-description bridge">
+           <h2 class="place-bridge-name">
                 Там есть<br> 
                 мост дьявола
-              </h3>
-              <span class="number">- №2 -</span>
-              <p class="place-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-            
+            </h2>
+            <span class="number">- №2 -</span>
+            <p class="place-bridge-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
-          
         </article>
-
         <section class="features">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="feature-wrap">
             <li class="feature">
-              <h3>
-                Небольшая площадь
-              </h3>
+              <h3>Небольшая площадь</h3>
               <span class="number">- №3 -</span>
               <p>Все достопримечательности находятся очень близко</p>
             </li>
             <li class="feature">
-              <h3>
-                Красивая дорога
-              </h3>
+              <h3>Красивая дорога</h3>
               <span class="number">- №4 -</span>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
             <li class="feature">
-              <h3>
-                Мало туристов
-              </h3>
+              <h3>Мало туристов</h3>
               <span class="number">- №5 -</span>
               <p>Большинство едет в Гранд Каньон и толпится там</p>
             </li>
           </ul>
         </section>
-        
         <div class="offer">
           <div class="offer-wrap">
             <h2>Заинтересовались?</h2>
             <p class="offer-text">Укажите предполагаемые даты поездки,<br>
               и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           </div>
-          
           <div class="offer-button">
             <button class="button button-search" type="button">Поиск гостиницы в Седоне</button>
             <form class="offer-form form-show" action="https://echo.htmlacademy.ru" method="post">
-                <p class="offer-item">
-                  <label for="offer-arrival">Дата заезда</label>
-                  <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
-                  <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
-                </p>
-                <p class="offer-item">
-                  <label for="offer-departure">Дата выезда</label>
-                  <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
-                  <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
-                </p>
-                <div class="offer-people">
-                  <div class="people">
-                    <span>
+              <p class="offer-item">
+                <label for="offer-arrival">Дата заезда</label>
+                <input type="text" name="arrival" value="" placeholder="24 апреля 2017" id="offer-arrival">
+                <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
+              </p>
+              <p class="offer-item">
+                <label for="offer-departure">Дата выезда</label>
+                <input type="text" name="departure" value="" placeholder="4 июля 2017" id="offer-departure">
+                <button class="button button-item" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
+              </p>
+              <div class="offer-people">
+                <div class="people">
+                  <span>
                     <label for="offer-adults">Взрослые</label>
-                    </span>
-                    <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество взрослых</span></button><input type="text" name="adults" value="" placeholder="2" id="offer-adults"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество взрослых</span></button>
-                  </div>
-                  <div class="people children">
-                    <span>
-                      <label for="offer-children">Дети</label>
-                    </span>
-                    <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество детей</span></button><input type="text" name="children" value="" placeholder="0" id="offer-children"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество детей</span></button>
-                  </div>
+                  </span>
+                  <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество взрослых</span></button><input type="text" name="adults" value="" placeholder="2" id="offer-adults"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество взрослых</span></button>
                 </div>
-                <button class="button button-find" type="submit">Найти</button>
+                <div class="people children">
+                  <span>
+                    <label for="offer-children">Дети</label>
+                  </span>
+                  <button class="button button-regular button-decrease" type="button"><span class="visually-hidden">Уменьшить количество детей</span></button><input type="text" name="children" value="" placeholder="0" id="offer-children"><button class="button button-regular button-increase" type="button"><span class="visually-hidden">Увеличить количество детей</span></button>
+                </div>
+              </div>
+              <button class="button button-find" type="submit">Найти</button>
             </form>
           </div> 
         </div>
-
         <div class="map-container">
           <div class="iframe">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52378.753541346276!2d-111.8214368979637!3d34.864465675869994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1512458847800" width="1200" height="475" style="border:0" allowfullscreen>
@@ -166,7 +149,6 @@
             <img src="img/map.jpg" width="1200" height="475" alt="Карта">
           </div> 
         </div>
-        
       </main>
       <footer class="main-footer">
         <b class="hashtag">#Visitsedona</b>
