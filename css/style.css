@@ -750,10 +750,10 @@ html {
 }
 
 .bridge {
-    width: 400px; 
+    min-width: 400px; 
     display: block;
     text-align: center;
-    padding: 29px 67px;
+    padding: 29px 0;
 }
 
 .place-bridge-image {
@@ -771,9 +771,8 @@ html {
 }
 
 .place-bridge-text {
-    padding: 0;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    padding: 6px 46px;
+    padding-bottom: 18px;
 }
 
 .services {
