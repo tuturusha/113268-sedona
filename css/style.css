@@ -1119,6 +1119,12 @@ html {
 	border-top: 11px solid #a9a9a9;   
 }
 
+.sort-arrows-up:focus::after,
+.sort-arrows-down:focus::after {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
 .sort-arrows-up:hover::after,
 .sort-arrows-down:hover::after {
     border-color:  #000000 transparent;
