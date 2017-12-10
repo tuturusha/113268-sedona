@@ -123,7 +123,7 @@ input[type="radio"].visually-hidden {
     background-color: #eeeeee;
     text-align: center;
     font-weight: normal;
-    padding: 5px 0;
+    padding: 7px 0;
 }
 
 .offer {
@@ -195,7 +195,7 @@ input[type="radio"].visually-hidden {
     font-weight: bold;
     line-height: 36px;
     color: #000000;  
-    padding-top: 22px;
+    padding-top: 17px;
 }
 
 .offer-text {
@@ -479,10 +479,11 @@ input[type="radio"].visually-hidden {
 
 .filter-button {
     display: block;
-    margin: 0 auto;
-    padding: 5px 35px;
+    margin: 0;
+    margin-left: 86px;
+    padding: 6px 33px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 21px;
     color: #ffffff;
     text-transform: uppercase;
     background: transparent;
@@ -569,7 +570,11 @@ input[type="radio"].visually-hidden {
 
 .wrap-item-card {
     display: flex;
-    margin-top: 4px;
+    margin-top: 6px;
+}
+.wrap-item-button {
+    display: flex;
+    margin-top: 15px;
 }
 
 .result-card-type {
@@ -583,7 +588,7 @@ input[type="radio"].visually-hidden {
 
 .result-card-rating {
     background-color: #f2f2f2;
-    margin-right: 14px;
+    margin-right: 10px;
 }
 
 .button-book {
@@ -592,7 +597,6 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     line-height: 21px;
     padding: 3px 17px; 
-    margin-top: 11px
 }
 
 .button-details {
@@ -601,7 +605,6 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     line-height: 21px;
     padding: 3px 17px;
-    margin-top: 11px;
     margin-right: 5px;
 }
 
@@ -747,7 +750,7 @@ html {
     width: 400px; 
     display: block;
     text-align: center;
-    padding: 31px 67px;
+    padding: 29px 67px;
 }
 
 .place-bridge-image {
@@ -870,6 +873,7 @@ html {
     display: flex;
     flex-direction: row;
     padding: 0 72px;
+    padding-bottom: 5px;
     margin: 0;
 }
 
@@ -888,7 +892,7 @@ html {
 }
 
 .filter-option {
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     padding-left: 40px;
     list-style: none; 
 }
@@ -936,7 +940,7 @@ html {
 
 .block-option legend {
     padding-top: 27px;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
 }
 
 .hotel-block legend {
@@ -961,6 +965,8 @@ html {
 .slider-title {
     margin-top: 27px;
     margin-bottom: 11px;
+    padding-left: 2px;
+    font-size: 16px;
 }
 
 .price-controls {
@@ -986,7 +992,7 @@ html {
   .price-controls label {
     display: inline-block;
     font-size: 14px;
-    line-height: 38px;
+    line-height: 31px;
     vertical-align: top;
     cursor: pointer;
   }
@@ -1009,7 +1015,7 @@ html {
 
   .range-controls {
     position: relative;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   }
 
   .range-controls .scale {
@@ -1054,7 +1060,7 @@ html {
     justify-content: space-between;
     padding: 0 72px;
     margin: 0;
-    margin-bottom: 31px;
+    margin-bottom: 29px;
 }
 
 .sort div {
@@ -1154,13 +1160,14 @@ html {
 
 .results-right {
     width: 241px;
+    padding: 6px 4px;
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
 } 
 
 .stars {
-    margin-bottom: 54px;
+    margin-bottom: 49px;
     width: 110px;
     text-align: center;  
     width: 85px;
