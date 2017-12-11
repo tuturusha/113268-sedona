@@ -6,7 +6,7 @@ body {
     line-height: 26px;
     font-weight: bold;
     color: #000000;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 a {
@@ -164,7 +164,7 @@ input[type="radio"].visually-hidden {
 
     20% {
         transform: translateY(-25%);
-    } 
+    }
 
     30% {
         transform: translateY(-20%);
@@ -172,7 +172,7 @@ input[type="radio"].visually-hidden {
 
     50% {
         transform: translateY(-15%);
-    } 
+    }
 
     70% {
         transform: translateY(-10%);
@@ -184,7 +184,7 @@ input[type="radio"].visually-hidden {
 
     100% {
         transform: translateY(0%);
-    }  
+    }
 }
 
 .form-show {
@@ -198,12 +198,13 @@ input[type="radio"].visually-hidden {
     font-weight: bold;
     line-height: 36px;
     color: #000000;  
-    padding-top: 24px;
+    padding-top: 22px;
 }
 
 .offer-text {
     font-weight: normal;
     margin-top: -3px;
+    color: #333333;
 }
 
 .offer-item {
@@ -212,7 +213,7 @@ input[type="radio"].visually-hidden {
     position: relative;
 }
 
-.offer-form  input[type="text"] {
+.offer-form input[type="text"] {
     font: inherit;
     background-color: #f2f2f2;
     margin-left: 20px;
@@ -220,24 +221,25 @@ input[type="radio"].visually-hidden {
     padding-right: 30px;
     width: 346px;
     box-sizing: border-box;
-    border: none;
+    border: 2px solid #f2f2f2;
     height: 38px;
 }
 
-.offer-form  input[type="text"]::placeholder {
+.offer-form input[type="text"]::placeholder {
     color: #000000;
     text-transform: uppercase;
 }
 
-.offer-form  input[type="text"]:hover {
+.offer-form input[type="text"]:hover {
     background-color: #f2f2f2;
 }
 
-.offer-form  input[type="text"]:focus {
+.offer-form input[type="text"]:focus,
+.offer-form input[type="text"]:active {
     background-color: transparent;
     border: 2px solid #f2f2f2;
 }
- 
+
 .button-item {
     position: absolute;
     top: 6px;
@@ -247,7 +249,6 @@ input[type="radio"].visually-hidden {
     background: transparent;
     background-image: url("../img/calendar.svg");
     border: none;
-    outline: none;
 }
 
 .button-item:hover {
@@ -288,10 +289,9 @@ input[type="radio"].visually-hidden {
     width: 38px;
     height: 38px;
     padding: 0;
-    margin: 0; 
+    margin: 0;
     text-align: center;
     background-color: #f2f2f2;
-    outline: none;
 }
 
 .button-regular::before,
@@ -384,7 +384,7 @@ input[type="radio"].visually-hidden {
 .button-find:active,
 .social-button:active,
 .button-details:active {
-    background-color: #5496bd; 
+    background-color: #5496bd;
     color: rgba(255, 255, 255, 0.3);
 }
 
@@ -418,7 +418,7 @@ input[type="radio"].visually-hidden {
     justify-content: center;
     background-color: #81b3d2;
     width: 48px;
-    height: 46px  
+    height: 46px;
 }
 
 .footer-copyright {
@@ -430,25 +430,26 @@ input[type="radio"].visually-hidden {
     padding: 0;
 }
 
-.footer-copyright b {
-    margin-right: 6px;
+.footer-copyright span {
+    margin-right: 8px;
+    font-family: "PT Sans", Arial, regular;
 }
 
 .button-copyright {
     width: 115px;
-    height: 41px;  
+    height: 41px;
 }
 
 .button-copyright path {
-   fill: #231f20; 
+   fill: #231f20;
 }
 
 .button-copyright:focus path,
 .button-copyright:hover path {
-    fill: #81b3d2; 
+    fill: #81b3d2;
 }
 
- .button-copyright:active path {
+.button-copyright:active path {
     fill: #a9a9a9;
 }
 
@@ -457,11 +458,11 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/background-card.jpg");
     background-position: 0 -150px;
     background-size: 1200px 400px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     color: #ffffff;
     font-weight: normal;
     line-height: 21px;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .filter fieldset {
@@ -538,14 +539,14 @@ input[type="radio"].visually-hidden {
 
 .sort-type a:hover,
 .sort-rating a:hover {
-    color: #81b3d2; 
+    color: #81b3d2;
     border-bottom: 1px dotted #81b3d2;
 }
 
 .sort-type a:active,
 .sort-rating a:active {
     color: #000000;
-    border: none;  
+    border: none;
 }
 
 .result-name {
@@ -567,7 +568,7 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
-    color: #333333;   
+    color: #333333;
 }
 
 .wrap-item-card {
@@ -599,7 +600,7 @@ input[type="radio"].visually-hidden {
     background-color: #766357;
     font-size: 14px;
     line-height: 21px;
-    padding: 3px 17px; 
+    padding: 3px 17px;
 }
 
 .button-details {
@@ -653,7 +654,7 @@ html {
 }
 
 .site-navigation li {
-    width: 20%;  
+    width: 20%;
 }
 
 .site-navigation li:nth-child(1) {
@@ -698,7 +699,7 @@ html {
     width: 188px;
     height: 45px;
     margin-top: 77px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
 
 .tagline-container .gorgeous {
@@ -728,13 +729,13 @@ html {
 .places {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
     overflow: hidden;
     align-items: stretch;
 }
  
 .town {
-    width: 400px; 
+    width: 400px;
     display: block;
     text-align: center;
     padding: 30px 44px;
@@ -746,11 +747,11 @@ html {
     background-size: cover;
     width: 100%;
     height: auto;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 .bridge {
-    min-width: 400px; 
+    min-width: 400px;
     display: block;
     text-align: center;
     padding: 29px 0;
@@ -823,7 +824,7 @@ html {
 .present::before {
     background-image: url("../img/icon-3.svg");
     background-repeat: no-repeat;
-    background-position: 0 0;  
+    background-position: 0 0;
 }
 
 .feature-wrap {
@@ -842,12 +843,12 @@ html {
     padding-top: 20px;
     padding-bottom: 39px;
     padding-left: 60px;
-    padding-right: 60px;   
+    padding-right: 60px;
 }
 
 .feature h3 {
     padding-left: 65px;
-    padding-right: 65px; 
+    padding-right: 65px;
     padding-bottom: 3px;
 }
 
@@ -858,7 +859,7 @@ html {
 .place-name {
     padding-left: 95px;
     padding-right: 95px;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
 .place-text {
@@ -879,12 +880,12 @@ html {
     margin: 0;
 }
 
-.block-option  {
+.block-option {
     width: 241px;
     text-align: left;
     position: relative;
     padding: 0;
-    margin: 0;  
+    margin: 0;
 }
 
 .block-option ul {
@@ -896,9 +897,9 @@ html {
 .filter-option {
     margin-bottom: 25px;
     padding-left: 40px;
-    list-style: none; 
+    list-style: none;
 }
-    
+
 .filter-option label {
     position: relative;
     display: block;
@@ -911,7 +912,7 @@ html {
     top: -3px;
     width: 27px;
     height: 27px;
-    background-image: url("../img/checkbox-off.svg");  
+    background-image: url("../img/checkbox-off.svg");
     background-repeat: no-repeat;
 }
 
@@ -926,7 +927,7 @@ html {
 }
 
 .filter-input-checkbox:disabled:checked + label::after {
-    background-image: url("../img/checkbox-ondisabled.svg"); 
+    background-image: url("../img/checkbox-ondisabled.svg");
 }
 
 .filter-input-checkbox:disabled + label::after {
@@ -937,7 +938,7 @@ html {
     width: 288px;
     padding: 0;
     margin: 0;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 .block-option legend {
@@ -946,11 +947,11 @@ html {
 }
 
 .hotel-block legend {
-   padding-left: 15px; 
+   padding-left: 15px;
 }
 
- .hotel-block ul {
-    padding-left: 15px; 
+.hotel-block ul {
+    padding-left: 15px;
 }
 
 .filter-wrap {
@@ -969,12 +970,13 @@ html {
     margin-bottom: 11px;
     padding-left: 2px;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .price-controls {
     position: relative;
     height: 31px;
-    margin-bottom: 22px;
+    margin-bottom: 21px;
     font-size: 0;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -1046,7 +1048,7 @@ html {
 .range-toggle-min {
     left: 0;
 }
-  
+
 .range-toggle-max {
     left: 80%;
 }
@@ -1054,7 +1056,7 @@ html {
 .range-toggle:hover {
     background: #1c4f80;
 }
-  
+
 .sort {
     display: flex;
     flex-direction: row;
@@ -1062,12 +1064,12 @@ html {
     justify-content: space-between;
     padding: 0 72px;
     margin: 0;
-    margin-bottom: 29px;
+    margin-bottom: 31px;
 }
 
 .sort div {
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
 
 .sort-block {
@@ -1090,7 +1092,7 @@ html {
     border: none;
     background: none;
     outline: none;
-    margin-right: 12px; 
+    margin-right: 12px;
     position: relative;
     width: 11px;
     height: 10px;
@@ -1102,9 +1104,9 @@ html {
     top: 0;
     left: 0;
     display: block;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-bottom: 11px solid #a9a9a9;   
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 11px solid #a9a9a9;
 }
 
 .sort-arrows-down::after {
@@ -1113,9 +1115,9 @@ html {
     top: 0;
     left: 0;
     display: block;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-top: 11px solid #a9a9a9;   
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 11px solid #a9a9a9;
 }
 
 .sort-arrows-up:focus::after,
@@ -1131,11 +1133,11 @@ html {
 
 .sort-arrows-up:active::after,
 .sort-arrows-down:active::after {
-    border-color:  #81b3d2 transparent;
+    border-color: #81b3d2 transparent;
 }
 
 .arrows-current::after {
-    border-color:  #81b3d2 transparent;
+    border-color: #81b3d2 transparent;
 }
 
 .results {
@@ -1150,8 +1152,8 @@ html {
 }
 
 .results-wrap {
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 23px;
+    padding-bottom: 22px;
     padding-left: 70px;
     padding-right: 70px;
     margin: 0;
@@ -1171,34 +1173,34 @@ html {
     padding: 6px 4px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end; 
-} 
+    align-items: flex-end;
+}
 
 .stars {
     margin-bottom: 49px;
     width: 110px;
-    text-align: center;  
+    text-align: center;
     width: 85px;
     height: 17px;
     background-image: url("../img/star.svg");
-    background-repeat: space; 
+    background-repeat: space;
 }
 
 .three {
     margin-bottom: 50px;
-    text-align: center;  
+    text-align: center;
     height: 17px;
     background-image: url("../img/star.svg");
-    background-repeat: space; 
+    background-repeat: space;
     width: 65px;
 }
 
 .two {
     margin-bottom: 50px;
-    text-align: center;  
+    text-align: center;
     height: 17px;
     background-image: url("../img/star.svg");
-    background-repeat: space; 
+    background-repeat: space;
     width: 41px;
 }
 
