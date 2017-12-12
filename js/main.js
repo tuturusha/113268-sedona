@@ -4,7 +4,7 @@ var form=document.querySelector(".offer-form");
 
 button.addEventListener("click", function (evt) {
     evt.preventDefault();
-  });
+});
 
 form.classList.remove("form-show");
 
